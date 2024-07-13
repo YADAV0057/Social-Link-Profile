@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #141414 ;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+    position: relative;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 28px;
+    background-color: #1f1f1f;
+    flex-direction: column;
+    height: 535px;
+    width: 330px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img img {
+    border-radius: 50%;
+    height: 70px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.text1 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text2 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c5f82a;
+}
+
+.text3 {
+    font-size: 14px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+.link1:hover{
+    color: #c5f82a;
+    cursor: pointer;
+}
+
+.link2:hover{
+    color: #c5f82a;
+    cursor: pointer;
+}
+
+.link4:hover{
+    color: #c5f82a;
+    cursor: pointer;
+}
+
+.link3:hover{
+    color: #c5f82a;
+    cursor: pointer;
+}
+
+.link5:hover{
+    color: #c5f82a;
+    cursor: pointer;
+}
+
+
+
+.link1, .link2, .link3, .link4, .link5 {
+    margin-top: 20px;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link1 { padding-left: 105px; padding-right: 105px; }
+.link2 { padding-left: 75px; padding-right: 75px; }
+.link3 { padding-left: 100px; padding-right: 100px; }
+.link4 { padding-left: 105px; padding-right: 105px; }
+.link5 { padding-left: 95px; padding-right: 95px; }
+
+#attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+
+    color: #ffffff;
+    font-size: 12px;
+}
